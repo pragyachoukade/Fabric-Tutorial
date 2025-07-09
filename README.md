@@ -22,7 +22,9 @@ These milestones showcase my hands‑on experience and technical skills using Mi
 
 1. **Workspace & Lakehouse Setup**  
    Initiated `PragyaWS` workspace and established `pragyaLakehouse` for organizing all pipeline and transformation artifacts.  
-   ![image](https://github.com/user-attachments/assets/3a3386e3-5e15-4392-b210-490d45e3a3b4)
+
+<img src="![image](https://github.com/user-attachments/assets/3a3386e3-5e15-4392-b210-490d45e3a3b4)" style="border: 2px solid black;" />
+   
 
 
 2. **Ingestion Pipeline: GitHub to Lakehouse**  

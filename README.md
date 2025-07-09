@@ -51,12 +51,11 @@ These milestones showcase my hands‑on experience and technical skills using Mi
 
 6. **PySpark Notebook: Silver → Gold Transformation**  
    Executed a PySpark notebook in the same workspace to process silver-layer data and save transformed DataFrames as managed tables for warehouse ingestion.  
-   ## 🚀 Transformations
+    **Transformations**
+   I processed raw data into the gold schema using PySpark.  
+   View the transformation logic in the notebook:
 
-I processed raw data into the gold schema using PySpark.  
-View the transformation logic in the notebook:
-
-[silver-to-gold transformation notebook](Transformed Data/Silver_Notebook.ipynb)
+   [silver-to-gold transformation notebook](./Transformed Data/Silver_Notebook.ipynb)
 
 7. **Gold Schema & Managed Tables in Warehouse**  
    Created a warehouse with a `gold` schema by converting silver data into managed tables—enabling cross-object querying and BI-ready datasets.  

@@ -69,7 +69,11 @@ These milestones showcase my hands‑on experience and technical skills using Mi
 
 9. **Explored AutoML & Data Wrangling**  
    Applied AutoML for model training and used Data Wrangler to perform feature engineering; documented lineage, governance, and metadata handling.  
-   *Insert governance/catalog screenshot*
+
+   [transformation notebook](./Transformed_Date/AutoML_Notebook-8785.ipynb)
+   
+   ![image](https://github.com/user-attachments/assets/33f9cf93-a6b5-4676-97de-f95c9c399b0a)
+
 
 10. **Deployment Pipelines (Power BI)**  
    Configured Power BI deployment pipelines to promote artifacts across Dev → Test → Prod, applying deployment rules to bind models and reports per environment.  

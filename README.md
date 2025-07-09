@@ -27,23 +27,36 @@ These milestones showcase my hands‑on experience and technical skills using Mi
 
 2. **Ingestion Pipeline: GitHub to Lakehouse**  
    Built the `tutorial1` pipeline using **Lookup → ForEach → Copy**, fetching data from GitHub and loading into the lakehouse. Data lineage, connectors, and mapping logic captured.  
-   *Insert pipeline screenshot*
 
-3. **Conditional Pipeline: Azure Data Lake → Lakehouse**  
-   Created a secondary pipeline to ingest from Azure Data Lake Storage (ADLS) with an **if-condition** to ensure data continuity and error tolerance.  
-   *Insert conditional pipeline screenshot*
+   ![image](https://github.com/user-attachments/assets/df6b8e8c-7339-43a1-88f2-6bafd81510f9)
+
+
+3. **Ingestion Pipeline: Azure Data Lake → Lakehouse**  
+   Created a secondary pipeline to ingest from Azure Data Lake Storage (ADLS) to lakehouse to ensure data continuity and error tolerance.  
+
+   ![image](https://github.com/user-attachments/assets/625c7497-5648-4d3e-87fe-14badf826cfb)
+
 
 4. **Transformation via Dataflow**  
    Constructed a **Dataflow Gen2** transformation targeting the silver layer within the lakehouse using joins, cleanses, and logic chaining.  
-   *Insert Dataflow visual*
+
+   ![image](https://github.com/user-attachments/assets/d356fa3e-be5a-4914-8906-b453d64924ef)
+
 
 5. **Parent Pipeline Orchestration**  
    Used an **Invoke Pipeline** approach to orchestrate upstream ingestion pipelines into a consolidated ingestion workflow, bridging raw to silver transitions.  
-   *Insert orchestration screenshot*
+
+   ![image](https://github.com/user-attachments/assets/ebbce951-b133-42c9-b094-c1ade06555b0)
+
 
 6. **PySpark Notebook: Silver → Gold Transformation**  
    Executed a PySpark notebook in the same workspace to process silver-layer data and save transformed DataFrames as managed tables for warehouse ingestion.  
-   *Insert notebook screenshot*
+   ## 🚀 Transformations
+
+I processed raw data into the gold schema using PySpark.  
+View the transformation logic in the notebook:
+
+[silver-to-gold transformation notebook](Transformed Data/Silver_Notebook.ipynb)
 
 7. **Gold Schema & Managed Tables in Warehouse**  
    Created a warehouse with a `gold` schema by converting silver data into managed tables—enabling cross-object querying and BI-ready datasets.  

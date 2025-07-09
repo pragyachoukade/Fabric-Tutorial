@@ -54,18 +54,24 @@ These milestones showcase my hands‑on experience and technical skills using Mi
     **Transformations**
    I processed raw data into the gold schema using PySpark.  
    View the transformation logic in the notebook:
-
    [transformation notebook](./Transformed_Date/Silver_Notebook.ipynb)
+   
+   ![image](https://github.com/user-attachments/assets/55b838a0-515a-49fe-bb0a-6fb8a8aa9ca9)
 
-7. **Gold Schema & Managed Tables in Warehouse**  
-   Created a warehouse with a `gold` schema by converting silver data into managed tables—enabling cross-object querying and BI-ready datasets.  
-   *Insert warehouse schema screenshot*
+8. **Gold Schema & Managed Tables in Warehouse**  
+   Created a warehouse with a `gold` schema by converting silver data into managed tables—enabling cross-object querying and BI-ready datasets. 
+   **DataWarehouse Screenshots**
+   I have created schema then deploy data to warehouse by creating tables in warehouse, created views and used visual query editor for transformation.
+   [Data_Warehouse Work ](./Warehouse_Work)   
 
-8. **Explored AutoML & Data Wrangling**  
+   ![image](https://github.com/user-attachments/assets/97b88d6d-5781-482a-9314-8654b60f4c10)
+
+
+9. **Explored AutoML & Data Wrangling**  
    Applied AutoML for model training and used Data Wrangler to perform feature engineering; documented lineage, governance, and metadata handling.  
    *Insert governance/catalog screenshot*
 
-9. **Deployment Pipelines (Power BI)**  
+10. **Deployment Pipelines (Power BI)**  
    Configured Power BI deployment pipelines to promote artifacts across Dev → Test → Prod, applying deployment rules to bind models and reports per environment.  
    *Insert deployment pipeline screenshot*
 

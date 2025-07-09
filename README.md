@@ -80,6 +80,10 @@ These milestones showcase my hands‑on experience and technical skills using Mi
    
    ![image](https://github.com/user-attachments/assets/05fb5f72-02db-4c7a-9586-e29d869d49d1)
 
+11. **Lineage in Fabric Workspace**  
+   Every Fabric workspace includes a built-in **Lineage View** showing upstream dependencies—such as pipelines, dataflows, lakehouse tables, and external sources (one level beyond the workspace)  
+
+   ![image](https://github.com/user-attachments/assets/264796dd-3305-4b3a-bd14-04ab1b759a7c)
 
 ---
 

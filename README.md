@@ -1,6 +1,6 @@
 # Microsoft Fabric Learning Journey 🚀
 
-Welcome to my hands-on learning repository documenting Microsoft Fabric. This project highlights my end-to-end workflows: data ingestion, transformation, semantic modeling, governance, and deployments.
+Welcome to my hands-on learning repository documenting Microsoft Fabric. This journey highlights my end-to-end workflows: data ingestion, transformation, semantic modeling, governance, and deployments.
 
 ---
 
@@ -70,14 +70,16 @@ These milestones showcase my hands‑on experience and technical skills using Mi
 9. **Explored AutoML & Data Wrangling**  
    Applied AutoML for model training and used Data Wrangler to perform feature engineering; documented lineage, governance, and metadata handling.  
 
-   [transformation notebook](./Transformed_Date/AutoML_Notebook-8785.ipynb)
+   [AutoML Notebook](./Transformed_Date/AutoML_Notebook-8785.ipynb)
    
    ![image](https://github.com/user-attachments/assets/33f9cf93-a6b5-4676-97de-f95c9c399b0a)
 
 
 10. **Deployment Pipelines (Power BI)**  
    Configured Power BI deployment pipelines to promote artifacts across Dev → Test → Prod, applying deployment rules to bind models and reports per environment.  
-   *Insert deployment pipeline screenshot*
+   
+   ![image](https://github.com/user-attachments/assets/05fb5f72-02db-4c7a-9586-e29d869d49d1)
+
 
 ---
 
